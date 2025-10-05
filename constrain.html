@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>提示</title>
+    <link rel="stylesheet" href="./style/constrain.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>提示</h1>
+      <p>
+        <b>重要提醒：</b
+        >如果您目前正在经历严重的心理困扰、抑郁、焦虑或有自伤倾向，
+        请立即寻求专业心理健康服务的帮助。本评估不适合处于急性心理危机状态的人群。
+      </p>
+      <div>
+        <form id="agreementForm">
+          <p>
+            <label
+              ><input type="checkbox" class="agree" />
+              我理解本评估的目的是帮助我了解自己的性心理特征
+            </label>
+          </p>
+          <p>
+            <label
+              ><input type="checkbox" class="agree" />
+              我理解我的数据将被匿名化处理并仅保存在本地设备上
+            </label>
+          </p>
+          <p>
+            <label
+              ><input type="checkbox" class="agree" />
+              我理解参与是自愿的，可以随时退出评估
+            </label>
+          </p>
+          <p>
+            <label
+              ><input type="checkbox" class="agree" />
+              我理解这不是医疗诊断工具，如有需要会寻求专业帮助
+            </label>
+          </p>
+          <button id="startBtn" disabled>开始</button>
+        </form>
+      </div>
+    </div>
+    <script src="./script/constrain.js"></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+body {
+  font-family: "Microsoft Yahei", sans-serif;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+.container {
+  display: inline-block;
+  text-align: left;
+  background: white;
+  margin-top: 40px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+  max-width: 600px;
+}
+h1 {
+  text-align: center;
+}
+.question {
+  margin: 20px 0;
+}
+.options {
+  margin-left: 20px;
+}
+label {
+  margin-right: 15px;
+}
+button {
+  display: block;
+  margin: 20px auto;
+  width: auto;
+  padding: 10px 25px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  background: #fff;
+  color: #3366cc;
+  cursor: pointer;
+}
+button:hover {
+  background: #aaa;
+}
+a {
+  text-decoration: none;
+}

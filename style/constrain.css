@@ -1,0 +1,35 @@
+body {
+  font-family: "Microsoft Yahei", sans-serif;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+#agreementForm {
+  align-content: center;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+}
+p {
+  margin: 15px 0;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 6px;
+  background: #fff;
+  color: #3366cc;
+  cursor: pointer;
+}
+button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
