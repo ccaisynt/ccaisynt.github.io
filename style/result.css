@@ -153,7 +153,7 @@ h1 {
   margin: 0;
   font-weight: 800;
   letter-spacing: 0.1em;
-  font-size: 14vmin;
+  font-size: clamp(40px, 12vmin, 80px);
   line-height: 0.9;
   color: transparent;
   background: linear-gradient(90deg, #ffffff, rgba(255, 255, 255, 0.85));
@@ -249,7 +249,8 @@ h1::after {
     font-size: 22vmin;
   }
   .card {
-    padding: 3vmin;
+    padding: clamp(16px, 4vmin, 64px) clamp(32px, 8vmin, 128px);
+    border-radius: clamp(8px, 2vmin, 32px);
   }
 }
 

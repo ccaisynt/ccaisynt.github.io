@@ -16,7 +16,7 @@ function rand(min, max) {
 }
 function init() {
   particles = [];
-  const count = Math.round((W * H) / 50000);
+  const count = Math.min(120, Math.round((W * H) / 50000));
   for (let i = 0; i < count; i++)
     particles.push({
       x: rand(0, W),
